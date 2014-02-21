@@ -9,6 +9,7 @@
     "heroku-postgresql:hobby-dev"
   ],
   "setup": [
+    "echo 'heroku run'",
     "bundle exec rake db:migrate"
   ]
 }
