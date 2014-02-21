@@ -1,0 +1,14 @@
+{
+  "name": "rails-sample",
+  "appDescription": "A blank Rails app to get you started",
+  "buildpack": "heroku/ruby",
+  "config": {
+    "keys": []
+  },
+  "addOns": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "setup": [
+    "bundle exec rake db:migrate"
+  ]
+}
